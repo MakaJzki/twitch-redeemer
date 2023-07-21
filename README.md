@@ -17,3 +17,5 @@ To install the plugin download "Twitch-reedemer" folder to your PC, next steps d
 
 
 ![alt text](https://github.com/MakaJzki/twitch-redeemer/blob/main/Install_instructions.jpg?raw=true)
+
+After installing the plugin all instances of the browser should be restarted to avoid any issue with the plugin.
