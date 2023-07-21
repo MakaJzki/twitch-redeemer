@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Twitch-Reedemer",
+    "description": "Plugin which helps you automatically reedem twitch-channel points",
+    "version": "1.0.1",
+    
+    "content_scripts": [
+      {
+        "js": ["script.js"],
+        "run_at": "document_idle",
+
+        "matches": [
+          "https://www.twitch.tv/*",
+          "https://www.twitch.tv/"
+        ]
+      }
+    ],
+
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ]
+  }
